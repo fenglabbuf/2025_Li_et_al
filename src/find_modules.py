@@ -1,7 +1,7 @@
+import random
 import networkx as nx
 import pandas as pd
 import numpy as np
-import random
 import sknetwork as skn
 import infomap
 import matplotlib.pyplot as plt

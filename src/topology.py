@@ -1,9 +1,6 @@
 import networkx as nx
 import pandas as pd
 import numpy as np
-from scipy import stats
-import sknetwork as skn
-from scipy import optimize
 import powerlaw
 from multiprocessing import Process
 import os.path
