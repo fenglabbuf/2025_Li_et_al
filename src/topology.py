@@ -15,7 +15,6 @@ def run_with_limited_time(func, args, kwargs, time):
         return False
     return True
 
-
 def read_directed_grn(infile):
     '''read file as networkx directed graph'''
     net = pd.read_csv(infile, sep='\t', header=None)
@@ -54,7 +53,6 @@ def nxedge_to_positive(DGo):
     DG = nx.DiGraph()
     DG.add_weighted_edges_from([(a, b, abs(c)) for (a, b, c) in list(DGo.edges.data('weight'))])
     return DG
-
 
 def compute_topology_parameters(DG, outfile, treatment, run, threshold, component):
     '''return number of nodes, number of edges, small world coefficient sigma, 
