@@ -7,6 +7,7 @@ import infomap
 import matplotlib.pyplot as plt
 import matplotlib as mpl
 mpl.rcParams['font.family'] = 'arial'
+import subprocess
 
 # community colors
 colors = ['#00a679', '#edab00', '#7b68b5', '#e74e00', '#48af17','#ac7500', 
@@ -172,32 +173,10 @@ def highlight_cmap(list1, list2, highlight = '#fc0303', backgroud='#696969'):
     return colormap
 
 
-def goplot(file):
-    '''generate gene ontology bar plot'''
-    dfannots = pd.read_csv(file)
-    dfannots = dfannots[dfannots['p.adjust']<0.01]
-    dfannots['refgs'] = [int(n.split('/')[0]) for n in dfannots['BgRatio']]
-    dfannots = dfannots[(dfannots['refgs']<1500)&(dfannots['refgs']>10)]
-    dfannots = dfannots.drop_duplicates(subset='geneID', keep='first')
-    dfannots = dfannots[:10]
-    dfannots = dfannots.sort_values(by=['p.adjust'], ascending=False)
-    if len(dfannots)>=1:
-        if len(dfannots)>1:
-            fig = plt.figure(figsize=(2, 1.5*np.log(len(dfannots))))
-        else:
-            fig = plt.figure(figsize=(2, 0.4))
-        ax = fig.add_subplot(1, 1, 1)
-        plt.barh(list(dfannots['Description']), -np.log10(dfannots['p.adjust']), 
-                 color=colors[int(file[-5])], alpha=0.2, edgecolor=colors[int(file[-5])], linewidth=2)
-        plt.barh(list(dfannots['Description']), -np.log10(dfannots['p.adjust']), 
-                 color='none', alpha=0.7, edgecolor=colors[int(file[-5])], linewidth=2)
-        plt.yticks(fontsize=13)
-        plt.title(file, fontsize=13)
-        plt.xlabel('-log'+r'$_{10}$'+'(FDR)', fontsize=13)
-        ax.spines['right'].set_color('none')
-        ax.spines['top'].set_color('none')
-    else:
-        print(file)
-    return
+def clustergo(part):
+    '''call R script to annotate genes with GO BP terms by clusterGO package'''
+    pd.DataFrame.from_dict(part, orient='index', columns=['community']).\
+        to_csv('./../results/temp/community.csv')
+    subprocess.call("Rscript ./../src/clustergo.R", shell=True)
 
 
