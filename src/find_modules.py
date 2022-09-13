@@ -78,7 +78,7 @@ def jaccard_idx(lsta, lstb):
     return idx
 
 def _position_nodes(g, partition, scale, **kwargs):
-    # positions of nodes within communities
+    '''positions of nodes within communities'''
     communities = dict()
     for node, community in partition.items():
         try:
