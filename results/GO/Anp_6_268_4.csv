@@ -1,0 +1,3 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0001655","urogenital system development","6/34","338/18723",2.90619091505163e-05,0.0227354594514832,0.01788565720157,"30812/6599/26508/639/8549/4811",6
+"GO:0031346","positive regulation of cell projection organization","6/34","353/18723",3.70586136128496e-05,0.0227354594514832,0.01788565720157,"5997/6091/139818/9139/10602/64787",6

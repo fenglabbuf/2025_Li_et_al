@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0086010","membrane depolarization during action potential","3/35","36/18723",4.0957113449376e-05,0.0450118676808643,0.0397499564213944,"6334/610/8912",3

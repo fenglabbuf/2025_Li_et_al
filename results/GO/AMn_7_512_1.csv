@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0031498","chromatin disassembly","4/131","20/18723",1.01667034041136e-05,0.0273687655638739,0.0255879871991955,"11240/6599/6418/6605",4

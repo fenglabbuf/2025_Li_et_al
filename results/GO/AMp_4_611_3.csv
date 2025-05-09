@@ -1,0 +1,3 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0042770","signal transduction in response to DNA damage","7/93","172/18723",2.38311859165295e-05,0.0395058391360906,0.0335814610664336,"83667/595/25946/144455/149628/55367/7508",7
+"GO:0030330","DNA damage response, signal transduction by p53 class mediator","5/93","72/18723",2.91879121803403e-05,0.0395058391360906,0.0335814610664336,"83667/25946/144455/149628/55367",5

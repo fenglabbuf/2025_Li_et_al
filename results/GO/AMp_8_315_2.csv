@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0072583","clathrin-dependent endocytosis","4/62","47/18723",1.74736179621748e-05,0.0255639030786617,0.0243159188905211,"821/57720/9094/3092",4

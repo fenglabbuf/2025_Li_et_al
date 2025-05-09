@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0061005","cell differentiation involved in kidney development","4/47","57/18723",1.24871760143473e-05,0.0248994289726085,0.0192302510620948,"6469/4868/4851/5613",4

@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0043405","regulation of MAP kinase activity","5/32","177/18723",1.16829912754295e-05,0.0181203194681911,0.0139703979883031,"2043/6091/5997/5580/4254",5

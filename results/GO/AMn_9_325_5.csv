@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0045055","regulated exocytosis","5/25","230/18723",1.16436048969571e-05,0.0161147491773887,0.0120970926666281,"26154/116841/4851/100431172/488",5

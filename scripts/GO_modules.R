@@ -8,7 +8,7 @@ gene_ids <- read.csv("data/count_matrix.csv", sep = ",")
 gene_ids <- data.frame(gene_ids)
 gene_ids <- gene_ids[, c(1, 3)]
 
-mdl <- read.csv("results/rank_community_AMnp.txt", sep = "\t")
+mdl <- read.csv("results/rank_community_AMp.txt", sep = "\t")
 mdl <- unique(data.frame(mdl))
 entrezmdl <- left_join(mdl, gene_ids, by = c("geneid" = "Approved.symbol"))
 entrezmdl$thmdls <- paste(entrezmdl$run, entrezmdl$nodes,
@@ -32,7 +32,7 @@ for (m in mdls){
     if (nrow(resultframe) >= 1) {
         rownames(resultframe) <- NULL
         write.csv(resultframe, row.names = FALSE,
-                  paste("results/GO/AMnp_", as.character(m), ".csv", sep = "")
+                  paste("results/GO/AMp_", as.character(m), ".csv", sep = "")
                   )
     }
   }

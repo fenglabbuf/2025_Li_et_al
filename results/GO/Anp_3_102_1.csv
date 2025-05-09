@@ -1,0 +1,3 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0048934","peripheral nervous system neuron differentiation","2/18","12/18723",5.72878926121694e-05,0.0243759983064781,0.0189653076068708,"4744/3670",2
+"GO:0048935","peripheral nervous system neuron development","2/18","12/18723",5.72878926121694e-05,0.0243759983064781,0.0189653076068708,"4744/3670",2

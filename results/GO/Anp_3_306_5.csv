@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0006939","smooth muscle contraction","4/31","110/18723",3.1401673694013e-05,0.0445275732981104,0.0351037657505703,"6752/5997/387/59",4

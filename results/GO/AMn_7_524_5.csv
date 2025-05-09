@@ -1,0 +1,4 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0030029","actin filament-based process","8/33","798/18723",5.64978946720945e-05,0.0320064396124105,0.024148811594293,"287/3757/11214/57221/55561/9026/54874/57482",8
+"GO:1901381","positive regulation of potassium ion transmembrane transport","3/33","43/18723",5.86735831574894e-05,0.0320064396124105,0.024148811594293,"287/3757/65268",3
+"GO:0043268","positive regulation of potassium ion transport","3/33","50/18723",9.24055865354642e-05,0.0336048316367305,0.0253547960248186,"287/3757/65268",3

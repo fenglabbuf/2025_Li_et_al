@@ -1,0 +1,4 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0030330","DNA damage response, signal transduction by p53 class mediator","5/64","72/18723",4.66830817397314e-06,0.00957936837299288,0.00782801570646232,"144455/4193/25946/83667/55367",5
+"GO:2000134","negative regulation of G1/S transition of mitotic cell cycle","5/64","84/18723",9.98120467848692e-06,0.0102407160001276,0.00836845213306824,"144455/138151/5925/4193/55367",5
+"GO:1902807","negative regulation of cell cycle G1/S phase transition","5/64","93/18723",1.64107384407555e-05,0.0112249450934767,0.00917273906530648,"144455/138151/5925/4193/55367",5

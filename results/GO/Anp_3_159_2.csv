@@ -1,0 +1,3 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0003006","developmental process involved in reproduction","8/25","992/18723",2.90963973555723e-05,0.0283107946269719,0.0230320955909372,"6599/8549/30812/6752/8728/639/5997/23198",8
+"GO:0046530","photoreceptor cell differentiation","3/25","64/18723",8.30298595424994e-05,0.040394026667426,0.0328623444083998,"92211/30812/639",3

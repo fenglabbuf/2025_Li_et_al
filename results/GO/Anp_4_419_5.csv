@@ -1,0 +1,2 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0003006","developmental process involved in reproduction","10/40","992/18723",3.29428203999201e-05,0.0402890693491022,0.035474216072756,"6599/6752/639/8728/5997/30812/1618/3985/23198/5414",10

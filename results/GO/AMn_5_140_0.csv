@@ -1,0 +1,4 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:1903305","regulation of regulated secretory pathway","4/31","136/18723",7.19656910705943e-05,0.0338598827299571,0.0299648757345476,"9783/8912/9846/6860",4
+"GO:1903307","positive regulation of regulated secretory pathway","3/31","51/18723",8.11015155208552e-05,0.0338598827299571,0.0299648757345476,"8912/9846/6860",3
+"GO:0017156","calcium-ion regulated exocytosis","3/31","64/18723",0.000159911315741373,0.0445086495480155,0.0393886819826119,"9783/8912/6860",3

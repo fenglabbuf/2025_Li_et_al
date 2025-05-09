@@ -1,0 +1,4 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0017156","calcium-ion regulated exocytosis","3/21","64/18723",4.84840296643074e-05,0.0187987896435263,0.0151029713013523,"9783/8912/6854",3
+"GO:0048934","peripheral nervous system neuron differentiation","2/21","12/18723",7.85464748336753e-05,0.0187987896435263,0.0151029713013523,"3670/4744",2
+"GO:0048935","peripheral nervous system neuron development","2/21","12/18723",7.85464748336753e-05,0.0187987896435263,0.0151029713013523,"3670/4744",2

@@ -1,0 +1,4 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0014855","striated muscle cell proliferation","4/36","76/18723",1.33796940327052e-05,0.0250869263113222,0.0182668033267564,"6469/26011/2047/4851",4
+"GO:0048713","regulation of oligodendrocyte differentiation","3/36","38/18723",5.25817685140265e-05,0.0444862848157982,0.032392259034998,"6469/26011/4851",3
+"GO:0045687","positive regulation of glial cell differentiation","3/36","42/18723",7.11780557052771e-05,0.0444862848157982,0.032392259034998,"6469/26011/4851",3

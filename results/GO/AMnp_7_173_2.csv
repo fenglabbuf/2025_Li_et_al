@@ -1,0 +1,4 @@
+"ID","Description","GeneRatio","BgRatio","pvalue","p.adjust","qvalue","geneID","Count"
+"GO:0048934","peripheral nervous system neuron differentiation","2/24","12/18723",0.000103122273830268,0.0411687425292279,0.032128056783245,"3670/4744",2
+"GO:0048935","peripheral nervous system neuron development","2/24","12/18723",0.000103122273830268,0.0411687425292279,0.032128056783245,"3670/4744",2
+"GO:0097091","synaptic vesicle clustering","2/24","14/18723",0.000141961181135269,0.0411687425292279,0.032128056783245,"1000/6854",2
